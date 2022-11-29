@@ -1,0 +1,26 @@
+.container {
+    max-width: 600px;
+}
+
+.btn {
+    background-color: #43d9be;
+    color: #fff;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn__form {
+    min-width: 100px;
+}
+
+.input-group-text {
+    min-width: 140px;
+}
+
+.btn:focus {
+    outline: none !important;
+}
+
+.tab {
+    min-width: 120px;
+}
