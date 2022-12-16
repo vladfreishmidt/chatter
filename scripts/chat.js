@@ -37,6 +37,14 @@ class Chatroom {
         });
       });
   }
+
+  updateName(username) {
+    this.user = username;
+  }
+
+  updateRoom(room) {
+    this.room = room;
+  }
 }
 
 const chatroom = new Chatroom('general', 'shaun');
